@@ -18,7 +18,7 @@ for (var i = 0; i < 10; i += 2) {
 // Setup
 var myArray = [];
 
-/** My solution is using in the "for loop" additional "if" statement
+/** My solution is using in the "for loop" and additional "if" statement
   * with % operand to eject even numbers.
   */
 for (var i = 0; i <= 10; i++) {
