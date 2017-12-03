@@ -11,12 +11,12 @@
   */
 
 function uniteUnique(arr) {
-	// Convert the arguments object into an array and create array to store result.
+  // Convert the arguments object into an array and create array to store result.
   var temp = Array.prototype.slice.call(arguments), final = [];
   final = temp.reduce(function(arg1,arg2){
-  // Applying filter method to remove the duplicate elements in the array
+    // Applying filter method to remove the duplicate elements in the array
     return arg1.concat(arg2.filter(function(value){
-    	// Use indexOf to check if the element present in the final array.
+      // Use indexOf to check if the element present in the final array.
       return arg1.indexOf(value) === -1;
     }));
   });
